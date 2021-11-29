@@ -1,0 +1,128 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/*--------------------------------------------Navbar*/
+
+
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+.navbar {
+    background-color: #dadada;
+}
+/*--------------------------------------------Hero Image*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url("/assets/images/backlit-beach-dawn-dusk-588561.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*--------------------------------------------Sign-up Container*/
+.sign-up-container-text {
+    text-align: center;
+    padding: 40px;
+}
+
+.sign-up-container-form {
+    margin-bottom: 20px;
+}
+
+.bg-color-sign-up {
+    background-color: #dadada;
+}
+
+.btn-submit {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+/*--------------------------------------------Info box*/
+
+.info-box-1 {
+    display: block;
+    text-align: center;
+}
+
+.info-box-2 {
+    display: block;
+    text-align: center;
+}
+/*--------------------------------------------Footer*/
+#footer-details {
+    margin: 0;
+    padding: 20px;
+}
+
+.footer-logo {
+    padding: 20px;
+}
+
+.address {
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* Jumbotron from Whiskey project */
+
+.jumbotron {
+    background: transparent;
+
+}
+
+.jumbotron-header {
+    font-family: "Merriweather", sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.jumbotron h4 {
+    color: white; 
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
