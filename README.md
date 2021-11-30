@@ -22,3 +22,4 @@
 * I want to access the timetable.
 * View new blog posts and information about yoga.
 
+unsplash.com for testimonial faces

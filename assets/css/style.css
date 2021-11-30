@@ -14,7 +14,7 @@ body {
     padding-left: 40px;
 }
 .navbar {
-    background-color: #dadada;
+    background-color: #dadada71;
 }
 /*--------------------------------------------Hero Image*/
 
@@ -40,6 +40,10 @@ body {
     padding: 40px;
 }
 
+.sign-up-container-text h3{
+    font-family: "Merriweather", sans-serif;
+}
+
 .sign-up-container-form {
     margin-bottom: 20px;
 }
@@ -51,18 +55,34 @@ body {
 .btn-submit {
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
+    background-color: #E47670;
+    border-color: #E47670;
 }
 /*--------------------------------------------Info box*/
-
-.info-box-1 {
-    display: block;
-    text-align: center;
+.icon {
+    font-size: 25px;
 }
-
+.info-box-1, 
 .info-box-2 {
     display: block;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+.info-box-1 h3, 
+.info-box-2 h3 {
+    font-family: "Merriweather", sans-serif;
+}
+/*--------------------------------------------Testimonial*/
+.testimonial {
+    text-align: center;
+    background-color: #dadada71;
+}
+
+.testimonial h2 {
+    font-family: "Merriweather", sans-serif;
+}
+
 /*--------------------------------------------Footer*/
 #footer-details {
     margin: 0;
@@ -75,6 +95,7 @@ body {
 
 .address {
     text-decoration: none;
+    font-size: 12px;
 }
 
 .inline-block {
