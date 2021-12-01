@@ -87,6 +87,7 @@ body {
 #footer-details {
     margin: 0;
     padding: 20px;
+    font-size: 12px;
 }
 
 .footer-logo {
@@ -116,6 +117,16 @@ body {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+#button-footer {
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.form-control-sm {
+    margin-bottom: 20px;
 }
 
 /* Jumbotron from Whiskey project */
