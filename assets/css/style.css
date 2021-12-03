@@ -14,8 +14,18 @@ body {
     padding-left: 40px;
 }
 .navbar {
-    background-color: #dadada71;
+    background-color: #dadada;
 }
+
+#navbarNav a:hover {
+    
+    color: #dd9208;
+    border-bottom: 1px solid #dd9208;
+  }
+
+  .active {
+    border-bottom: 1px solid #dd9208;
+  }
 /*--------------------------------------------Hero Image*/
 
 .callout-container {
@@ -75,6 +85,7 @@ body {
 }
 /*--------------------------------------------Testimonial*/
 .testimonial {
+    font-style: italic;
     text-align: center;
     background-color: #dadada71;
 }
@@ -83,7 +94,26 @@ body {
     font-family: "Merriweather", sans-serif;
 }
 
+.quote-text {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.quote-name {
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify;
+}
 /*--------------------------------------------Footer*/
+a:link {
+    text-decoration: none;
+    color: #8f8f8f;
+  }
+
+a:hover {
+    
+    color: #da2b14;
+  }
 #footer-details {
     margin: 0;
     padding: 20px;
@@ -97,6 +127,7 @@ body {
 .address {
     text-decoration: none;
     font-size: 12px;
+    
 }
 
 .inline-block {
