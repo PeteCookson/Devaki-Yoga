@@ -13,25 +13,28 @@ body {
 .nav-item {
     padding-left: 40px;
 }
+
 .navbar {
     background-color: #dadada;
 }
 
 #navbarNav a:hover {
-    
+
     color: #dd9208;
     border-bottom: 1px solid #dd9208;
-  }
+}
 
-  .active {
+.active {
     border-bottom: 1px solid #dd9208;
-  }
+}
+
 /*--------------------------------------------Hero Image*/
 
 .callout-container {
+
     height: 100vh;
 
-    background: url("/assets/images/backlit-beach-dawn-dusk-588561.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/silhouette.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,7 +45,9 @@ body {
     justify-content: center;
 
     position: relative;
+
 }
+
 
 /*--------------------------------------------Sign-up Container*/
 .sign-up-container-text {
@@ -50,7 +55,7 @@ body {
     padding: 40px;
 }
 
-.sign-up-container-text h3{
+.sign-up-container-text h3 {
     font-family: "Merriweather", sans-serif;
 }
 
@@ -64,25 +69,36 @@ body {
 
 .btn-submit {
     margin-bottom: 20px;
-    color: rgb(255, 255, 255);
+    color: #fafafa;
     background-color: #E47670;
     border-color: #E47670;
 }
+
+
+.btn-submit:hover {
+    /* color: #535353; */
+    background-color: #dd9208;
+    border-color: #dd9208;
+}
+
 /*--------------------------------------------Info box*/
 .icon {
     font-size: 25px;
 }
-.info-box-1, 
+
+.info-box-1,
 .info-box-2 {
     display: block;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.info-box-1 h3, 
+
+.info-box-1 h3,
 .info-box-2 h3 {
     font-family: "Merriweather", sans-serif;
 }
+
 /*--------------------------------------------Testimonial*/
 .testimonial {
     font-style: italic;
@@ -104,16 +120,24 @@ body {
     font-weight: bold;
     text-align: justify;
 }
+
 /*--------------------------------------------Footer*/
+
+/*Map link*/
 a:link {
     text-decoration: none;
-    color: #8f8f8f;
-  }
+    color: #212529;
+}
 
 a:hover {
-    
     color: #da2b14;
-  }
+}
+
+/* .map {
+    text-decoration: none;
+    color: #212529;
+ }    */
+
 #footer-details {
     margin: 0;
     padding: 20px;
@@ -127,7 +151,17 @@ a:hover {
 .address {
     text-decoration: none;
     font-size: 12px;
-    
+
+}
+
+.contact-info-email,
+.contact-info-mobile {
+    margin-bottom: 10px;
+}
+
+.email,
+.mobile {
+    margin-left: 10px;
 }
 
 .inline-block {
@@ -150,10 +184,14 @@ a:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+
 #button-footer {
     padding-right: 5px;
     padding-left: 5px;
-
 }
 
 .form-control-sm {
@@ -164,7 +202,6 @@ a:hover {
 
 .jumbotron {
     background: transparent;
-
 }
 
 .jumbotron-header {
@@ -176,7 +213,7 @@ a:hover {
 }
 
 .jumbotron h4 {
-    color: white; 
+    color: white;
 }
 
 .jumbotron .lead {
@@ -188,4 +225,10 @@ a:hover {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media screen and (min-width: 768px) {
+    background: url("/assets/images/silhouette-mobile.jpg") no-repeat center top;
 }
