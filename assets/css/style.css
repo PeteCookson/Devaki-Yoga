@@ -101,25 +101,25 @@ body {
 
 /*--------------------------------------------Testimonial*/
 .testimonial {
-    font-style: italic;
     text-align: center;
     background-color: #dadada71;
 }
 
 .testimonial h2 {
     font-family: "Merriweather", sans-serif;
+    padding-top: 20px;
 }
 
-.quote-text {
-    margin-top: 24px;
-    margin-bottom: 0;
-}
-
-.quote-name {
+.name {
     font-style: normal;
     font-weight: bold;
     text-align: justify;
 }
+
+.testimonial p {
+    font-style: italic;
+}
+
 
 /*--------------------------------------------Footer*/
 
@@ -229,6 +229,8 @@ a:hover {
 
 /*--------------------------------------------Media Queries*/
 
-@media screen and (min-width: 768px) {
-    background: url("/assets/images/silhouette-mobile.jpg") no-repeat center top;
+@media screen and (max-width: 768px) {
+    .callout-container {
+        background: url("/assets/images/silhouette-mobile.jpg") no-repeat center top;
+    }
 }
