@@ -7,14 +7,15 @@ body {
 }
 p {
     font-size: 1.6rem;
+    font-weight: 300;
 }
 /*--------------------------------------------Navbar*/
 .container-fluid {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .nav-font {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 .nav-item {
     padding-left: 4rem;
@@ -44,131 +45,9 @@ p {
 }
 /* .opac-back {
     background: black !important;
-    opacity: 0.6; */
-}
+    opacity: 0.6;
+} */
 
-
-/*--------------------------------------------Sign-up Container*/
-.sign-up-container-text {
-    text-align: center;
-    padding: 4rem;
-}
-.sign-up-container-text h3 {
-    font-family: "Merriweather", sans-serif;
-}
-.sign-up-container-form {
-    margin-bottom: 2rem;
-}
-.bg-color-sign-up {
-    background-color: #dadada;
-}
-.btn-submit {
-    margin-bottom: 2rem;
-    color: #fafafa;
-    background-color: #E47670;
-    border-color: #E47670;
-}
-.btn-submit:hover {
-    /* color: #535353; */
-    background-color: #dd9208;
-    border-color: #dd9208;
-}
-/*--------------------------------------------Info box*/
-.icon {
-    font-size: 2.5rem;
-}
-.info-box-1,
-.info-box-2 {
-    display: block;
-    text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-.info-box-1 h3,
-.info-box-2 h3 {
-    font-family: "Merriweather", sans-serif;
-}
-/*--------------------------------------------Testimonial*/
-.testimonial {
-    text-align: center;
-    background-color: #dadada71;
-}
-.testimonial h2 {
-    font-family: "Merriweather", sans-serif;
-    padding-top: 2rem;
-}
-.name {
-    font-style: normal;
-    font-weight: bold;
-    text-align: justify;
-}
-.testimonial p {
-    font-style: italic;
-}
-/*--------------------------------------------Footer*/
-/*Map link*/
-a:link {
-    text-decoration: none;
-    color: #212529;
-}
-a:hover {
-    color: #da2b14;
-}
-/* .map {
-    text-decoration: none;
-    color: #212529;
- }    */
-#footer-details {
-    margin: 0;
-    padding: 2rem;
-    font-size: 1.2rem;
-}
-.footer-logo {
-    padding: 2rem;
-}
-.address {
-    text-decoration: none;
-    font-size: 1.8rem;
-}
-.contact-info-email,
-.contact-info-mobile {
-    margin-bottom: 1rem;
-}
-.email,
-.mobile {
-    margin-left: 1rem;
-}
-.inline-block {
-    display: inline-block;
-}
-.social-links li a i {
-    width: 3.2rem;
-    height: 3.2rem;
-    padding: 1.2rem 0;
-    border-radius: 50%;
-    font-size: 1.3rem;
-    line-height: .7rem;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-.social-links li a i:hover {
-    background: #e84610;
-}
-.social {
-    margin: 0 .7rem;
-}
-#button-footer {
-    padding-right: .5rem;
-    padding-left: .5rem;
-}
-.form-control-sm {
-    margin-bottom: 2rem;
-}
 /* Jumbotron from Whiskey project */
 .jumbotron {
     background: transparent;
@@ -194,6 +73,162 @@ a:hover {
     font-style: italic;
     color: #d0d0d0;
 }
+
+/*--------------------------------------------Sign-up Container*/
+.sign-up-container-text {
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+.sign-up-container-text h3 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.sign-up-container-form {
+    margin-bottom: 2rem;
+}
+.bg-color-sign-up {
+    background-color: #dadada;
+    padding: 0 4rem;
+}
+.btn-submit {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: #fafafa;
+    background-color: #E47670;
+    border-color: #E47670;
+}
+.btn-submit:hover {
+    /* color: #535353; */
+    background-color: #dd9208;
+    border-color: #dd9208;
+}
+
+.form-control {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+/*--------------------------------------------Info box*/
+.icon {
+    font-size: 4rem;
+    padding: 2rem;
+}
+.info-box-1,
+.info-box-2 {
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.info-box-1 h3,
+.info-box-2 h3 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 2.5rem;
+}
+/*--------------------------------------------Testimonial*/
+.testimonial {
+    text-align: center;
+    background-color: #dadada71;
+}
+.testimonial h2 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+
+
+}
+.name {
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 0;
+    padding: 0 0 2rem 2rem;
+    
+    font-size: 1.6rem;
+}
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+/*--------------------------------------------Footer*/
+/*Map link*/
+a:link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #212529;
+}
+a:hover {
+    color: #da2b14;
+}
+
+.map-link {
+    font-size: 1.4rem;
+}
+/* .map {
+    text-decoration: none;
+    color: #212529;
+ }    */
+#footer-details {
+    margin: 0;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.footer-logo {
+    padding: 2rem;
+}
+.address li {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.contact-info-email,
+.contact-info-mobile {
+    margin-bottom: 1rem;
+}
+.email,
+.mobile {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+.fa-envelope,
+.fa-phone {
+    font-size: 1.6rem;
+}
+.inline-block {
+    display: inline-block;
+}
+.social-links li a i {
+    width: 4rem;
+    height: 4rem;
+    padding: 1.2rem 0;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background: #e84610;
+}
+.social {
+    margin: 0 .7rem;
+}
+#button-footer {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.form-control-sm {
+    margin-bottom: 2rem;
+}
+
 /*--------------------------------------------Media Queries*/
 /*for when it gets to old iPad size and over*/
 @media screen and (min-width: 768px) {
