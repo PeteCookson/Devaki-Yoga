@@ -1,180 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Merriweather:wght@300;400;900&display=swap');
+* {
+    font-size: 10px;
+}
 body {
     font-family: "Lato", sans-serif;
 }
-
+p {
+    font-size: 1.6rem;
+}
 /*--------------------------------------------Navbar*/
-
-
 .container-fluid {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
-
+.nav-font {
+    font-size: 2rem;
+}
 .nav-item {
-    padding-left: 40px;
+    padding-left: 4rem;
 }
-
 .navbar {
     background-color: #dadada;
 }
-
 #navbarNav a:hover {
-
     color: #dd9208;
     border-bottom: 1px solid #dd9208;
 }
-
 .active {
     border-bottom: 1px solid #dd9208;
 }
-
 /*--------------------------------------------Hero Image*/
-
 .callout-container {
-
     height: 100vh;
-
-    background: url("/assets/images/silhouette.jpg") no-repeat bottom right fixed;
+    background: url("../images/silhouette-mobile.jpg") no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-
+}
+/* .opac-back {
+    background: black !important;
+    opacity: 0.6; */
 }
 
 
 /*--------------------------------------------Sign-up Container*/
 .sign-up-container-text {
     text-align: center;
-    padding: 40px;
+    padding: 4rem;
 }
-
 .sign-up-container-text h3 {
     font-family: "Merriweather", sans-serif;
 }
-
 .sign-up-container-form {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
-
 .bg-color-sign-up {
     background-color: #dadada;
 }
-
 .btn-submit {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     color: #fafafa;
     background-color: #E47670;
     border-color: #E47670;
 }
-
-
 .btn-submit:hover {
     /* color: #535353; */
     background-color: #dd9208;
     border-color: #dd9208;
 }
-
 /*--------------------------------------------Info box*/
 .icon {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
-
 .info-box-1,
 .info-box-2 {
     display: block;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
-
 .info-box-1 h3,
 .info-box-2 h3 {
     font-family: "Merriweather", sans-serif;
 }
-
 /*--------------------------------------------Testimonial*/
 .testimonial {
     text-align: center;
     background-color: #dadada71;
 }
-
 .testimonial h2 {
     font-family: "Merriweather", sans-serif;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
-
 .name {
     font-style: normal;
     font-weight: bold;
     text-align: justify;
 }
-
 .testimonial p {
     font-style: italic;
 }
-
-
 /*--------------------------------------------Footer*/
-
 /*Map link*/
 a:link {
     text-decoration: none;
     color: #212529;
 }
-
 a:hover {
     color: #da2b14;
 }
-
 /* .map {
     text-decoration: none;
     color: #212529;
  }    */
-
 #footer-details {
     margin: 0;
-    padding: 20px;
-    font-size: 12px;
+    padding: 2rem;
+    font-size: 1.2rem;
 }
-
 .footer-logo {
-    padding: 20px;
+    padding: 2rem;
 }
-
 .address {
     text-decoration: none;
-    font-size: 12px;
-
+    font-size: 1.8rem;
 }
-
 .contact-info-email,
 .contact-info-mobile {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
-
 .email,
 .mobile {
-    margin-left: 10px;
+    margin-left: 1rem;
 }
-
 .inline-block {
     display: inline-block;
 }
-
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 1.2rem 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 1.3rem;
+    line-height: .7rem;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -183,54 +156,48 @@ a:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .social-links li a i:hover {
     background: #e84610;
 }
-
-
+.social {
+    margin: 0 .7rem;
+}
 #button-footer {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
-
 .form-control-sm {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
-
 /* Jumbotron from Whiskey project */
-
 .jumbotron {
     background: transparent;
 }
-
 .jumbotron-header {
     font-family: "Merriweather", sans-serif;
+    font-size: 4rem;
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
-    padding-top: 30px;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
 }
-
 .jumbotron h4 {
     color: white;
+    font-size: 2rem   
 }
-
 .jumbotron .lead {
-    margin: 25px 0;
+    margin: 2.5rem 0;
     color: #a7a7a7;
 }
-
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
 }
-
 /*--------------------------------------------Media Queries*/
-
-@media screen and (max-width: 768px) {
+/*for when it gets to old iPad size and over*/
+@media screen and (min-width: 768px) {
     .callout-container {
-        background: url("/assets/images/silhouette-mobile.jpg") no-repeat center top;
+        background: url("../images/silhouette.jpg") no-repeat bottom right fixed;
     }
 }
