@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 </head>
 
@@ -141,6 +141,7 @@
             </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -153,10 +154,14 @@
                     <li>301 Church Road</li>
                     <li>Bristol</li>
                     <li>St George</li>
-                    <li>BS5 8AA</li>
+                    <li>BS5 8AD</li>
                     <li>United Kingdom</li>
                 </ul>
-                <p class="map-link">Click <a href="#">here </a>to see us on the map</p>
+
+                <!-- Modal trigger -->
+                <p class="modal-link">Click <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        class="map-link"><i class="fas fa-map-marker-alt"></i> here
+                    </a>to see us on the map</p>
             </div>
             <div class="col-sm-4">
                 <div class="contact-info-email">
@@ -200,6 +205,47 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-auto">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="staticBackdropLabel">Join a yoga class... in the heart of Bristol
+                    </h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body img-center">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="350" height="450" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=301%20Church%20Road&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://fmovies-online.net"></a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 450px;
+                                    width: 350px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">embed google map into website</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 450px;
+                                    width: 350px;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>

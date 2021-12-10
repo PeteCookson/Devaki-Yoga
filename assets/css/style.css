@@ -117,14 +117,14 @@ p {
     font-weight: 300;
     margin-bottom: 2rem;
     color: #fafafa;
-    background-color: #E47670;
-    border-color: #E47670;
+    background-color: #dd9208;
+    border-color: #dd9208;
 }
 
 .btn-submit:hover {
     /* color: #535353; */
-    background-color: #dd9208;
-    border-color: #dd9208;
+    background-color: #8f8f8f;
+    border-color: #8f8f8f;
 }
 
 .form-control {
@@ -185,11 +185,11 @@ p {
 a:link {
     font-size: 1.4rem;
     text-decoration: none;
-    color: #212529;
+    color: #000000;
 }
 
 a:hover {
-    color: #da2b14;
+    color: #dd9208;
 }
 
 .map-link {
@@ -254,7 +254,7 @@ a:hover {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #dd9208;
 }
 
 .social {
@@ -276,8 +276,8 @@ a:hover {
 .jane {
     font-family: "Merriweather", sans-serif;
     font-size: 2.5rem;
-    padding-left: 10%;
-    padding-top: 2rem;
+    padding: 2rem;
+    text-align: center;
 }
 
 .lorna-profile {
@@ -296,9 +296,9 @@ a:hover {
     padding: 5px;
 }
 
-.schedule h2 {
+.schedule h1 {
     font-family: "Merriweather", sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 2rem;
 }
@@ -306,12 +306,13 @@ a:hover {
 .table th,
 .table td {
     font-family: "Lato", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 300;
 }
 
-.bg-color-schedule {
+/* .bg-color-schedule {
     background-color: ;
-}
+} */
 /*--------------------------------------------Media Queries*/
 /*for when it gets to old iPad size and over*/
 @media screen and (min-width: 768px) {
@@ -326,5 +327,20 @@ a:hover {
     .table th,
     .table td {
         font-size: 1.6rem;
+        font-weight: 300;
     }
+
+}
+
+.img-center {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.modal-link {
+    font-size: 1.4rem;
+}
+.modal-header h2 {
+    font-family: "Merriweather", sans-serif;
 }
