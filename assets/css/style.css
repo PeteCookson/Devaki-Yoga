@@ -61,7 +61,7 @@ h5 {
 /*--------------------------------------------Hero Image*/
 .callout-container {
     height: 100vh;
-    background: url("../images/silhouette-mobile.jpg") no-repeat center top;
+    background: url("../images/silhouette-mobile.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -72,10 +72,10 @@ h5 {
     position: relative;
 }
 
-/* .opac-back {
+.opac-back {
     background: black !important;
     opacity: 0.6;
-} */
+}
 
 /* Jumbotron from Whiskey project */
 .jumbotron {
@@ -199,10 +199,6 @@ a:hover {
     font-size: 1.4rem;
 }
 
-/* .map {
-    text-decoration: none;
-    color: #212529;
- }    */
 #footer-details {
     margin: 0;
     padding: 2rem;
@@ -246,7 +242,6 @@ a:hover {
     padding: 1.2rem 0;
     border-radius: 50%;
     font-size: 1.6rem;
-    /* line-height: 1rem; */
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -351,7 +346,7 @@ a:hover {
 @media screen and (min-width: 768px) {
 
     .callout-container {
-        background: url("../images/silhouette.jpg") no-repeat bottom right fixed;
+        background: url("../images/silhouette.jpg") no-repeat bottom center fixed;
         display: flex;
         align-items: center;
         justify-content: center;
