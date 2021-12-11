@@ -72,10 +72,10 @@ h5 {
     position: relative;
 }
 
-.opac-back {
+/* .opac-back {
     background: black !important;
     opacity: 0.6;
-}
+} */
 
 /* Jumbotron from Whiskey project */
 .jumbotron {
