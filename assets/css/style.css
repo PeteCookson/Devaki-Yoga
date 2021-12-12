@@ -73,8 +73,8 @@ h5 {
 }
 
 /* .opac-back {
-    background: black !important;
-    opacity: 0.6;
+    background: #8f8f8f86 !important;
+    padding: 5rem;
 } */
 
 /* Jumbotron from Whiskey project */
@@ -84,7 +84,7 @@ h5 {
 
 .jumbotron-header {
     font-family: "Merriweather", sans-serif;
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
     font-weight: bold;
     margin-bottom: 3rem;
@@ -93,7 +93,7 @@ h5 {
 
 .jumbotron h4 {
     color: white;
-    font-size: 2rem
+    font-size: 3rem
 }
 
 .jumbotron .lead {
@@ -273,7 +273,7 @@ a:hover {
 .lorna,
 .jane,
 .schedule,
-.blog-1 {
+.blog-heading {
     font-family: "Merriweather", sans-serif;
     font-size: 2.5rem;
     padding: 2rem;
@@ -288,10 +288,13 @@ a:hover {
     padding-right: 40px;
 }
 
+/* #lorna-photos {
+    
+} */
+
+
 .blog {
-    padding-top: 2rem;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 2rem;  
 }
 
 #lorna-photos {
@@ -299,6 +302,7 @@ a:hover {
 }
 #jane-photos {
     padding-bottom: 0.1rem;
+    object-fit: scale-down;
 }
 .responsive {
     width: 100%;
@@ -346,7 +350,7 @@ a:hover {
 @media screen and (min-width: 768px) {
 
     .callout-container {
-        background: url("../images/silhouette.jpg") no-repeat bottom center fixed;
+        background: url("../images/silhouette.jpg") no-repeat center fixed;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -365,6 +369,11 @@ a:hover {
         padding-bottom: 2rem;
     }
     
+    #blog-photos img {
+        height: 400px;
+        object-fit: cover;
+    }
+    
 }
 
 .img-center {
@@ -373,8 +382,10 @@ a:hover {
     margin-right: auto;
 }
 
-.modal-link {
+.modal-link,
+.map-link {
     font-size: 1.4rem;
+    color:black;
 }
 .modal-header h2 {
     font-family: "Merriweather", sans-serif;
