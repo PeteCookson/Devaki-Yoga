@@ -283,9 +283,8 @@ a:hover {
     background-color: #dadada;
 }
 .profile p {
-    padding-top: 2rem;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin: 0;
+    padding: 2rem 2rem 0 2rem;
 }
 
 /* #lorna-photos {
@@ -293,12 +292,11 @@ a:hover {
 } */
 
 
-.blog {
-    padding: 2rem;  
-}
+
 
 #lorna-photos {
     padding-right: 0;
+    object-fit: scale-down;
 }
 #jane-photos {
     padding-bottom: 0.1rem;
@@ -345,6 +343,20 @@ a:hover {
     border-color: #8f8f8f !important;
 }
 
+/*--------------------------------------------Blog*/
+.blog,
+.prin-blog-text {
+    padding: 2rem;  
+}
+
+.prin-blog {
+    font-family: "Merriweather", sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
 /*--------------------------------------------Media Queries*/
 /*for when it gets to old iPad size and over*/
 @media screen and (min-width: 768px) {
@@ -368,12 +380,19 @@ a:hover {
         margin: auto;
         padding-bottom: 2rem;
     }
-    
-    #blog-photos img {
+
+    #prin-photos img {
         height: 400px;
         object-fit: cover;
     }
     
+    .prin-blog-text p {
+        padding: 10rem 2rem 2rem;
+    }
+    
+    .profile p {
+        padding: 6rem;
+    }
 }
 
 .img-center {
