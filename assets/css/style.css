@@ -68,7 +68,7 @@ h5 {
 /*--------------------------------------------Hero Image*/
 .callout-container {
     height: 100vh;
-    background: url("../images/silhouette-mobile.jpg") center;
+    background: url("../images/silhouette-mobile.jpg") top center no-repeat;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -79,7 +79,8 @@ h5 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: relative;
+            min-height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
 }
 
 /* .opac-back {
