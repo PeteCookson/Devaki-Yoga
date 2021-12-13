@@ -32,15 +32,17 @@ Devaki Yoga was born out of my partners passion for yoga, as a qualified Sivanan
 
 [Enter the site](https://petecookson.github.io/Devaki-Yoga/index.html)
 
-# 5 Planes of User Experience
+## 5 Planes of User Experience
 
 ## Strategy Plane
+---
 
 The website is created as a shop front for the physical yoga studio, where visitors can see more information about the ethos and principles of yoga, while finding relevant timetables, blog posts and contact information.
 
 The main aim is to create a clear, simple, and effective way to engage with the user, information is clear, intuitive and well laid out.
 
 ## Scope Plane
+---
 Features included in this Project
 
 * Three different pages.
@@ -140,12 +142,6 @@ The website has been tested on Safari, Google Chrome across multiple Apple devic
 The websites css has been tested with W3C CSS Validator and returned with no errors found.
 
 Link to validation result [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
-
-<!-- The website has been through W3C Jigsaw validation with 2 errors. 
-The errors are located inside bootstrap CDN and I have no control over it.
-* URI : https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css
-* 12	abbr[title], abbr[data-original-title]	Property text-decoration-skip-ink doesn't exist : none
-* 12	.accordion	Property overflow-anchor doesn't exist : none -->
 
 The websites html has been tested with W3C Markup Validation Service and returned with no errors found.
 
