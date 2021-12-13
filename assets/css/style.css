@@ -272,8 +272,7 @@ a:hover {
 
 .lorna,
 .jane,
-.schedule,
-.blog-heading {
+.schedule {
     font-family: "Merriweather", sans-serif;
     font-size: 2.5rem;
     padding: 2rem;
@@ -356,6 +355,18 @@ a:hover {
     text-align: center;
 }
 
+.blog-heading {
+    font-family: "Merriweather", sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.blog-heading img{
+    border: 0;
+    vertical-align: bottom;
+}
+
 
 /*--------------------------------------------Media Queries*/
 /*for when it gets to old iPad size and over*/
@@ -395,6 +406,7 @@ a:hover {
     }
 }
 
+/*--------------------------------------------Modal*/
 .img-center {
     display: block; 
     margin-left: auto; 
