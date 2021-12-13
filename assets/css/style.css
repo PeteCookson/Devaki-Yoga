@@ -68,7 +68,7 @@ h5 {
 /*--------------------------------------------Hero Image*/
 .callout-container {
     height: 100vh;
-    background: url("../images/silhouette-mobile.jpg") no-repeat center fixed top;
+    background: url("../images/silhouette-mobile.jpg") no-repeat fixed center;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
