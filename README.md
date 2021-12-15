@@ -2,7 +2,7 @@
 
 ---
 
-For my Milestone Project 1 on **Code Institute's Diploma in Software Developement** course I have created a Yoga website.
+For the first Milestone Project on **Code Institute's Diploma in Software Developement** course I have created a Yoga website.
 Devaki Yoga was born out of my partners passion for yoga, as a qualified Sivananda Yoga teacher it will become the first step in her being able to take her love of yoga to a new level. 
 
 [Enter the site](https://petecookson.github.io/Devaki-Yoga/index.html)
@@ -139,9 +139,8 @@ The website has been tested on Safari, Google Chrome across multiple Apple devic
 
 ## Validation
 ---
-The websites css has been tested with W3C CSS Validator and returned with no errors found.
+The websites css has been tested with W3C CSS Validator and returned 23 warnings relating to vendor extensions.
 
-Link to validation result [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
 
 The websites html has been tested with W3C Markup Validation Service and returned with no errors found.
 
