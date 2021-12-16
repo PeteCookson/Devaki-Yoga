@@ -77,7 +77,9 @@ h5 {
 }
 
 .opac-back {
-    margin-bottom: 10rem;
+    background-color: #8f8f8f;
+    opacity: 0.6;
+    /* margin-bottom: 10rem; */
 }
 
 /* Jumbotron from Whiskey project */
@@ -292,13 +294,6 @@ a:hover {
     padding: 2rem 2rem 0 2rem;
 }
 
-/* #lorna-photos {
-    
-} */
-
-
-
-
 #lorna-photos {
     padding-right: 0;
     -o-object-fit: scale-down;
@@ -441,3 +436,13 @@ td {
 .modal-header h2 {
     font-family: "Merriweather", sans-serif;
 }
+
+.gmap_canvas {
+    width:350px;
+    height:450px; /* you have to specify width and heigth, otherwise overflow has no meaning */
+    overflow-x:hidden;
+    overflow-y:hidden
+    }
+
+    /* width="350" height="450" id="gmap_canvas"
+    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"> */
