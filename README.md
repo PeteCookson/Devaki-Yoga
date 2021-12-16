@@ -147,6 +147,7 @@ The websites html has been tested with W3C Markup Validation Service and returne
 Link to validation result [W3C Markup Validator](https://validator.w3.org/)
 
 
+
 ## Local Testing
 ---
 
@@ -158,14 +159,10 @@ There was few links which needed to be fixed and that was done.
 ---
 
 I used Google Chrome Dev Tools to check the responsiveness of website. Mobile, tablet and desktop sizes were tested and all worked well. 
-It also responded on each breakpoint that were set up on Media Query's and no visual or functional errors found
+It also responded well to the Media Query's and no functional or visual errors were found.
 
 ## Bugs
 ---
-
-Bigest issue that I have encountered was the responsivenes of the carousel images. The images look perfact (as intended) on mobile and on tablet screens.
-The issue is happening with desktop and large desktop screens where images might look a bit streched. 
-This project was focused on mobile first design so the images look perfect on mobile and medium devices. I have made sure that they are acceptable on large and extra large screens.
 
 ## Version Control
 ---
