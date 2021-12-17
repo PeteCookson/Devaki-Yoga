@@ -2,29 +2,35 @@
 
 ---
 
-For the first Milestone Project on **Code Institute's Diploma in Software Developement** course I have created a Yoga website.
+For the first Milestone Project on __Code Institute's Diploma in Software Developement__ course I have created a Yoga website.
 Devaki Yoga was born out of my partners passion for yoga, as a qualified Sivananda Yoga teacher it will become the first step in her being able to take her love of yoga to a new level. 
 
 [Enter the site](https://petecookson.github.io/Devaki-Yoga/index.html)
 
 ## User Stories:
 
-### As a new user I want to
+### External user's goal:
 
 * Quickly understand the main purpose of the site.
-* Navigate easily and find relevant information about the specific type of yoga and how it will benefit me.
+* Navigate easily and find relevant information about the specific type of yoga and how it will benefit.
 * Be able to access site information on yoga classes and timetables.
 * Easily access blog posts and information relevant to yoga and the site.
 * Sign up to the blog & newsletter
 * Find information on the teachers experience, philosophies and yoga principles.
 * See reviews and feedback from other clients.
-* Easily accesss contact information and location including directions.
+* Easily accesss contact information.
 
-### As a returning user I want to
+### Returning external user goals:
 
 * Access the timetable and schedule.
 * View new blog posts and information about yoga.
-* Be able easily accesss contact information and location including directions.
+* Be able to easily access contact information.
+
+### Site owner's goal:
+
+* Increase the membership of classes to local residents.
+* Grow a following of like-minded yoga people.
+* Develop relationships with the local community and provide relevant content that enriches the users experience. 
 
 # UX Design
 
@@ -32,24 +38,23 @@ Devaki Yoga was born out of my partners passion for yoga, as a qualified Sivanan
 
 [Enter the site](https://petecookson.github.io/Devaki-Yoga/index.html)
 
-## 5 Planes of User Experience
+## The 5 Planes of User Experience...
 
 ## Strategy Plane
 ---
 
 The website is created as a shop front for the physical yoga studio, where visitors can see more information about the ethos and principles of yoga, while finding relevant timetables, blog posts and contact information.
 
-The main aim is to create a clear, simple, and effective way to engage with the user, information is clear, intuitive and well laid out.
+The main aim is to create a clear, simple, and effective way to engage with the user; information is clear, intuitive and well laid out.
 
 ## Scope Plane
 ---
 Features included in this Project
 
 * Three different pages.
-* Map of location with link to navigation.
-* links to social media, email and phone.
-* Ability to create accounts to pre book, pre pay postoned for future release.
-* Live streaming of classes to be postponed for future release.
+* Schedule for classes, and information about the teachers.
+* Insirational images and original content.
+* Links to social media, email and phone.
 
 ## Structure Plane
 ---
@@ -62,11 +67,11 @@ The navigation is repeated through the site for consistency and responsive desig
 Page indicator is used for feedback and intuitive labeling links to other pages, logo is also a link to the index page.
 
 
-The footer is repaeted through the site for consitency, containing address, link to the map, contact information that link to email and phone, social media links and signup CTA.
+The footer is repeated through the site for consistency, containing the address, contact information that links to email and phone, social media links and sign-up CTA.
 
 * The "Home" page
 
-The index page features a full viewport responsive image with bootstrap jumbotron heading and company tagline, signup CTA, and three testimonials, layout of the page is simple and intuitive and allows immediate interaction.
+The index page features a full viewport responsive image with bootstrap jumbotron heading and company tagline, sign-up CTA, and three testimonials; layout of the page is simple and intuitive and allows immediate interaction.
 
 * About Us
 
@@ -74,7 +79,7 @@ The About Us page introduces more information to the user, photos of the teacher
 
 * Blog
 
-The Blog page has information relevant to the site, clear images to support the document, blogs are sepaated by the Signup CTA.
+The Blog page has information relevant to the site, clear images to support the document, blogs are separated by the sign-up CTA.
 
 ## Skeleton Plane
 ---
@@ -87,7 +92,7 @@ The design has been focused on mobile first, while also being responsive to larg
 ---
 The palette and font used for the site is complentary to the design and uses minimal color and style variations for visual identity.
 
-* Colors
+* Color pallette
 
 ![pallette](/assets/images/pallette.png)
 
@@ -135,34 +140,80 @@ The palette and font used for the site is complentary to the design and uses min
 
 ### Browser Testing
 
-The website has been tested on Safari, Google Chrome across multiple Apple devices, including iMac, Macbook, iPad, iPhone and Andrid mobile. All tests have confirmed the site performs as intended, it is visually responsive and has good overall device performance.
+The majority of initial browser testing was done through Chrome Developer Tools and Safari's Inspect Elements. The website has been tested on `Safari` and `Google Chrome` across multiple Apple devices, including iMac, Macbook, iPad, iPhone and Android mobile. All tests have confirmed the site performs as intended, it is visually responsive and has good overall device performance.
 
 ## Validation
 ---
-The websites css has been tested with W3C CSS Validator and returned 23 warnings relating to vendor extensions.
+The websites css has been tested with `W3C CSS Validator` and returned the following results:
 
+![css](/assets/images/css.png)
 
-The websites html has been tested with W3C Markup Validation Service and returned with no errors found.
+The websites  three html pages have been tested with `W3C Markup Validation` and returned the folowing results:
 
-Link to validation result [W3C Markup Validator](https://validator.w3.org/)
-
-
-
-## Local Testing
+Home page
 ---
 
-Local testing of all the buttons, links and functionality of the website has been carried out.
-There was few links which needed to be fixed and that was done. 
+![html-index](/assets/images/html-index.png)
 
+About Us
+---
+
+![html-index](/assets/images/html-about-us.png)
+
+Blog
+---
+
+![html-index](/assets/images/html-blog.png)
+
+The site has also been tested with `Lighthouse` and returned the folowing results:
+
+![lighthouse](/assets/images/lighthouse.png)
+
+
+## User Testing
+---
+
+User testing was conducted on slack through the #peer-code-review channel and general feedback was positive.
+
+## Bugs
+---
+Through validation and user testing, 3 bugs were found:
+ * The size of the hero image on index.html was slow to load, this was because of an error in uploading an incorrect image, so was easily fixed by uploading the correct image file.
+ * The favicon icon in the header had an incorrect directory, it was redirected and now functions as expected.
+* A visibility and accessibilty issue was raised because of a jumbotron font and hero image on the index.html page, this was fixed by adding a background with opacity.
 
 ## Responsiveness
 ---
 
-I used Google Chrome Dev Tools to check the responsiveness of website. Mobile, tablet and desktop sizes were tested and all worked well. 
+Google Chrome Dev Tools was used to check the responsiveness of website. Mobile, tablet and desktop sizes were tested and all worked well. 
 It also responded well to the Media Query's and no functional or visual errors were found.
 
-## Bugs
+## Life Cycle & Further Features
 ---
+* Ability to create accounts, login and book classes in advance.
+* Pre paid streaming service with live video of classes.
+
+## User Stories - the outcome....
+---
+
+### In this development I wanted the new user to:
+
+* Quickly understand the main purpose of the site.
+    - This goal has been met by the hero image at full viewport height.
+* Navigate easily and find relevant information about the specific type of yoga and how it will benefit.
+    - Blogs, images and relevant information, along with intuitive links and buttons. 
+* Be able to access site information on yoga classes and timetables.
+    - Information is clear and easily accessed on the about us page.
+* Easily access blog posts and information relevant to yoga and the site.
+    - Informtion is clear and easily accessed on the blog page.
+* Sign up to the blog & newsletter
+    - There is a 'call to action' on the index.html page and the blog.html, as well as a signup call to action at the footer of each page.
+* Find information on the teachers experience, philosophies and yoga principles.
+    - All can be easily found on the about-us.html page.
+* See reviews and feedback from other clients.
+    - The index.html page has reviews and feeback from students.
+* Easily access contact information.
+    - Contact information is easily accessed at the footer of each page, links will direct to either call the contact number email the contact address.
 
 ## Version Control
 ---
@@ -184,7 +235,8 @@ I used **[GitPod](https://gitpod.io/)** as a local repository and IDE and **[Git
 ## Deployment
 ---
 
-To deploy the website, I followed the below steps on [GitHub](https://github.com/).
-1. Go to **"Settings"** on the repository
-2. On **"Source"** of **"GitHub Pages"**, select **"master** for Branch and click save
+To deploy the website on [GitHub](https://github.com/).
+1. Go to **"Settings"** in the repository
+2. In **"Source"** of **"GitHub Pages"**, select **"master** for Branch and click save
 3. The website is now published on GitHub Pages and the link is provided on on the same section
+
