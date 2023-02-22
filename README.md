@@ -29,7 +29,7 @@ Devaki Yoga was born out of my partners passion for yoga, as a qualified Sivanan
 ### Site owner's goal:
 
 * Increase the membership of classes to local residents.
-* Grow a following of like-minded yoga people.
+* Grow a following of like-minded yoginis.
 * Develop relationships with the local community and provide relevant content that enriches the users experience. 
 
 # UX Design
@@ -53,7 +53,7 @@ Features included in this Project
 
 * Three different pages.
 * Schedule for classes, and information about the teachers.
-* Insirational images and original content.
+* Inspirational images and original content.
 * Links to social media, email and phone.
 
 ## Structure Plane
