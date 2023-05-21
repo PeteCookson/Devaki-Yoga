@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=2z*6d@x5(ovezj0a$bzxcq4h=h*)8b7no=952h*3e7k3=q2o@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-petecookson-devakiyoga-8gqgaw1nepf.ws-eu97.gitpod.io']
+ALLOWED_HOSTS = ['8000-petecookson-devakiyoga-8gqgaw1nepf.ws-eu97.gitpod.io', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://8000-petecookson-devakiyoga-8gqgaw1nepf.ws-eu97.gitpod.io']
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'devaki.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIRS],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
